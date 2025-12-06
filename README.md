@@ -49,3 +49,7 @@ The dashboard is organized into three main pages:
 1. Summary Overview
 2. Customers and Market Analysis
 3. Salesperson Performance
+
+PBIX file:
+The PBIX file is too large to upload directly to GitHub. Please download it from the following link:
+https://drive.google.com/drive/folders/1_q9_pMhwO92h1Tqc5UVCqEXZsAy9BuZ2?usp=sharing
