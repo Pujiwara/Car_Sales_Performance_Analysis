@@ -8,47 +8,47 @@ Dashboard Preview:
 ![page3](https://github.com/Pujiwara/Pictures/blob/main/Car%20Sales%20Performance_page-0003.jpg)
 
 Description:
-This project is a comprehensive analysis of the USA Car Sales Dataset 2018–2024. The dataset provides a rich, multidimensional view of individual car sales transactions, including customer details, car specifications, pricing metrics, payment methods, sales performance, and seasonal or regional context.
-The main goal of this project is to build a complete end-to-end analytics pipeline, starting from PostgreSQL data warehouse design, ETL transformations, and culminating in an interactive Power BI dashboard for business insight exploration.
-
-Tools Used:
-PostgreSQL
-Power BI
-
-Key Insights:
-1. Total sales remain stable with an upward trend, and profits follow the same pattern — indicating a healthy and stable business.
-2. The company maintains a healthy profit margin (16%).
-3. Payment methods are evenly distributed, indicating no dependency on a specific payment option.
-4. The most profitable brands are Mercedes, BMW, and Audi.
-5. Market demand is stable with no significant decline.
-6. Car purchases appear gender-neutral, with balanced customer distribution.
-7. The largest sales contribution comes from customers aged 35–64.
-8. The scatter plot indicates a pattern: the older the customer, the higher the car sale price tends to be.
-9. There is a significant performance gap between top and bottom salespersons — suggesting a need for targeted training programs for low performers.
-10. Many salespersons show negative profit, likely due to excessive discounting; this indicates the need for discount approval control.
+This case study presents an end-to-end **Car Sales Performance Analysis** built on the USA Car Sales Dataset (2018–2024). The objective of this project is to transform raw transactional sales data into a structured analytics solution that enables clear, actionable business insights.
+The project covers the full analytics lifecycle, starting from data cleaning and validation, dimensional data modeling using a star schema in PostgreSQL, and ending with an interactive Power BI dashboard. The dashboard is designed to support strategic decision-making by providing visibility into sales trends, customer behavior, product performance, and salesperson effectiveness.
 
 Dataset:
 https://www.kaggle.com/datasets/anjaliprajapati307/usa-car-sales-dataset-2018-2024?utm_source=chatgpt.com
 
-Data Warehouse Star Schema Components:
-fact_sales
-dim_dates
-dim_customers
-dim_car
-dim_salesperson
-dim_region
-dim_payments
+# Analytical Approach
+### Methods
+- **Data Cleaning & Validation**: Identification and handling of missing values, data inconsistencies, outliers, and recalculation of derived metrics (e.g., profit).
+- **Dimensional Modeling**: Design and implementation of a **star schema** to support analytical queries and BI reporting.
+- **Aggregation & KPI Development**: Creation of business metrics such as total sales, profit margin, quantity sold, commission, and growth trends.
+- **Exploratory & Descriptive Analysis**: Trend analysis, segmentation analysis, and performance comparison across dimensions.
 
-Key steps in the ETL workflow include:
-1. Standardizing date formats
-2. Data cleaning and validation
-3. Key mapping between fact and dimension tables
+### Dashboard Structure
+1. **Summary Overview** – High-level KPIs, sales and profit trends, payment distribution, and seasonal patterns.
+2. **Customers & Market Analysis** – Customer demographics, age and gender segmentation, regional performance, and purchasing behavior.
+3. **Salesperson Performance** – Sales ranking, commission analysis, performance gaps, and efficiency comparison.
 
-Power BI Dashboard Structure:
-The dashboard is organized into three main pages:
-1. Summary Overview
-2. Customers and Market Analysis
-3. Salesperson Performance
+### Tools
+- **PostgreSQL**: Data storage, cleaning, transformation (ETL), and data warehouse implementation.
+- **Power BI**: Data modeling, DAX measures, interactive dashboards, and visual analytics.
+
+# Key Insight
+- Total sales and profit show a stable and slightly increasing trend over the observed period, indicating overall business stability.
+- Customer purchases are relatively gender-neutral, with balanced contributions from male and female customers.
+- The company maintains a healthy average profit margin of approximately **16%**.
+- The primary revenue-driving customer segment falls within the **35–64 age range**.
+- Sales are evenly distributed across payment methods, reducing dependency on a single payment channel.
+- Older customers tend to purchase higher-priced vehicles, indicating stronger purchasing power.
+- Luxury brands such as **Mercedes, BMW, and Audi** contribute the highest profit.
+- There is a significant performance gap between top-performing and bottom-performing salespersons.
+- The market shows stable demand with no significant sales decline across years.
+- Several salespersons generate negative profit, likely due to excessive discounting practices.
+
+# Business Recommendations
+- **Focus on High-Margin Brands**: Strengthen marketing and inventory strategies for luxury brands that drive higher profitability.
+- **Target Core Customer Segments**: Prioritize marketing campaigns toward customers aged 35–64, who contribute the largest share of revenue.
+- **Sales Training Programs**: Implement targeted coaching and performance improvement plans for low-performing salespersons.
+- **Discount Control Policy**: Introduce approval mechanisms or discount thresholds to prevent profit erosion.
+- **Commission Optimization**: Align commission structures more closely with profitability rather than revenue alone.
+- **Regional Strategy Enhancement**: Allocate resources and sales efforts more aggressively in high-performing regions.
 
 PBIX file:
 The PBIX file is too large to upload directly to GitHub. Please download it from the following link:
