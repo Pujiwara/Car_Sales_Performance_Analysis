@@ -1,6 +1,10 @@
-# Car_Sales_Performance_Analysis
+# Car Sales Performance Analysis
 Project Title:
 Car Sales Performance Analysis
+
+Link notion page:
+[(English version)](https://www.notion.so/ekapujiwara/Car-Sales-Performance-Analysis-2cdc5d1ee80d809281d5d230dbb232d9?source=copy_link)
+[(versi Bahasa Indonesia)](https://www.notion.so/ekapujiwara/Car-Sales-Performance-Analysis-2cec5d1ee80d81de9885cb0a2f7a6efb?source=copy_link)
 
 Dashboard Preview:
 ![page1](https://github.com/Pujiwara/Pictures/blob/main/Car%20Sales%20Performance_page-0001.jpg)
